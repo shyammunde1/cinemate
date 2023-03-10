@@ -20,6 +20,7 @@ export const MovieDetail = () => {
     fetchMovie();
   }, [url]);
 
+  //eslint-disable-next-line
   const PageTitle= useTitle(movie.title)
 
   return (
